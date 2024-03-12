@@ -1,0 +1,24 @@
+.inicio {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.image-profile {
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-profile img {
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .inicio {
+    gap: 40px;
+  }
+}
