@@ -1,0 +1,32 @@
+.menu {
+  background-color: var(--white2-color);
+  position: fixed;
+  width: 100%;
+}
+
+.menu__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.link-inicio {
+  text-decoration: none;
+}
+
+.name-span {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* colors bootstrap */
+.nav {
+  --bs-nav-link-color: var(--purple1-color) !important;
+  --bs-nav-link-hover-color: var(--purple4-color) !important;
+}
+
+.nav-underline {
+  --bs-nav-underline-link-active-color: var(--purple5-color) !important;
+}
