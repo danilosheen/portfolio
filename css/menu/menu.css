@@ -32,6 +32,10 @@
   --bs-nav-underline-link-active-color: var(--cor-texto-quartenaria) !important;
 }
 
+.navbar {
+  --bs-navbar-toggler-focus-width: 0 !important;
+}
+
 .collapse {
   margin-top: 10px;
 }
@@ -88,5 +92,4 @@
   .menu-mobile {
     display: block !important;
   }
-
 }

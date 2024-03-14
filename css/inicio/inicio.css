@@ -73,6 +73,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
   }
 
   .image-profile {
@@ -84,5 +85,20 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .name-span {
+    display: none;
+  }
+
+  .nav-container {
+    width: 80vw;
+  }
+
+  .box-nav-item{
+    width: 100%;
   }
 }
