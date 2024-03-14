@@ -1,5 +1,6 @@
 /* Reset CSS */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("./style-dark.css");
 @import url("./personalizado/p.css");
 @import url("./menu/menu.css");
 @import url("./inicio/inicio.css");
@@ -16,7 +17,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  color: var(--black5-color);
+  
 }
 
 .ct {
@@ -26,6 +27,16 @@
 }
 
 :root {
+  /* paleta de cores */
+  --cor-primaria: #dddcda;
+  --cor-secundaria: #eeedec;
+  --cor-terciaria: #8453ff;
+
+  --cor-texto-primaria: #1d1d1d;
+  --cor-texto-secundaria: #8453ff;
+  --cor-texto-terciaria: #5b35f4;
+  --cor-texto-quartenaria: #3218e9;
+
   /* paleta purple */
   --purple1-color: #8453ff;
   --purple2-color: #7044fa;
@@ -49,6 +60,12 @@
 }
 
 body {
-  transition: background-color 0.3s ease, color 0.3s ease !important;
-  background-color: var(--white1-color) !important;
+  transition: 0.3s ease-in !important;
+  background-color: var(--cor-secundaria) !important;
+  color: var(--cor-texto-primaria) !important;
+  
+}
+
+.cptx{
+  color: var(--cor-texto-primaria) !important;
 }

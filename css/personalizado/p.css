@@ -1,5 +1,5 @@
 .text-transparent {
-  color: transparent;
+  color: transparent !important;
 }
 
 .bg-clip-text {
