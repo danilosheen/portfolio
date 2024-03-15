@@ -5,7 +5,7 @@
 @import url("./menu/menu.css");
 @import url("./inicio/inicio.css");
 @import url("./sobre/sobre.css");
-@import url("./skills/skills.css");
+@import url("./qualificacoes/qualificacoes.css");
 @import url("./projetos/projetos.css");
 @import url("./contato/contato.css");
 @import url("./rodape/rodape.css");
@@ -17,13 +17,25 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  
+}
+
+body {
+  transition: 0.3s ease-in !important;
+  background-color: var(--cor-secundaria) !important;
+  color: var(--cor-texto-primaria) !important;
 }
 
 .ct {
   margin: 0 auto;
   width: 80%;
   max-width: 1200px;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--cor-terciaria);
+  margin-bottom: 50px;
+  font-size: 2rem !important;
 }
 
 :root {
@@ -59,13 +71,6 @@
   --white5-color: #bbb8b4;
 }
 
-body {
-  transition: 0.3s ease-in !important;
-  background-color: var(--cor-secundaria) !important;
-  color: var(--cor-texto-primaria) !important;
-  
-}
-
-.cptx{
+.cptx {
   color: var(--cor-texto-primaria) !important;
 }

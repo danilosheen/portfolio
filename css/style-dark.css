@@ -1,21 +1,13 @@
 body.dark-mode {
-
   /* paleta de cores */
-  --cor-primaria:
-  --cor-secundaria:
-  --cor-terciaria:
-  
-  
-  --cor-texto-primaria:
-  --cor-texto-secundaria:
-  --cor-texto-terciaria:
-  --cor-texto-quartenaria:
+  --cor-primaria: #363636;
+  --cor-secundaria: #4f4f4f;
+  --cor-terciaria: #4f4f4f;
 
-
-
-
-
-
+  --cor-texto-primaria: #eeedec;
+  --cor-texto-secundaria: #7044fa;
+  --cor-texto-terciaria: #7044fa;
+  --cor-texto-quartenaria: #7044fa;
 
   /* paleta purple */
   --purple1-color: #8453ff;

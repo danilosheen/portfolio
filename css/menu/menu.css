@@ -3,6 +3,7 @@
   position: fixed;
   width: 100%;
   border-bottom: 1px solid var(--cor-texto-secundaria);
+  z-index: 999;
 }
 
 .menu__container {
@@ -84,7 +85,7 @@
   display: none !important;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 860px) {
   .menu-desktop {
     display: none !important;
   }
