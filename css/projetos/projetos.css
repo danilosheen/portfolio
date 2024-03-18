@@ -1,0 +1,42 @@
+.carousel-indicators [data-bs-target] {
+  width: 30px !important;
+  height: 10px !important;
+  background-color: var(--cor-terciaria) !important;
+  transition: opacity 0.6s ease;
+}
+
+/* .carousel-control-prev-icon {
+  background-image: url("../../assets/caret-left-fill-light.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../assets/caret-right-fill-light.svg") !important;
+} */
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 80%;
+}
+
+.carousel-indicators {
+  bottom: 100px !important;
+}
+.carousel-inner {
+  margin-bottom: 100px;
+}
+
+.stack {
+  margin-top: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack__icons {
+  height: 80%;
+}
+
+.stack__icons img {
+  height: 100%;
+}

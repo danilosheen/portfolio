@@ -1,0 +1,62 @@
+.contato {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contato__redes__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.contato__redes__icons a {
+  text-decoration: none;
+  color: var(--cor-terciaria);
+}
+
+.contato__fale-comigo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-name,
+.input-email,
+.input-msg {
+  width: 400px;
+  padding: 5px 10px;
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.input-msg {
+  resize: none;
+  height: 100px;
+}
+
+.button-submit {
+  width: 150px;
+  background-color: var(--cor-terciaria);
+  border: none;
+  border-radius: 10px;
+  color: var(--cor-texto-claro);
+  padding: 5px 10px;
+}
+
+@media (max-width: 530px) {
+  .input-name,
+  .input-email,
+  .input-msg {
+    width: 280px;
+  }
+}

@@ -1,37 +1,34 @@
-.rodape{
+.rodape {
   width: 100%;
   height: 90px;
   display: flex;
   align-items: center;
-  color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
 }
 
-.rodape__content{
+.rodape__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.rodape__content__first span{
+.rodape__content__first span {
   font-weight: 500;
-
 }
 
-.rodape__content__first span a{
+.rodape__content__first span a {
   text-decoration: none;
-  color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
   font-weight: 800;
-
 }
 
-.icons-sociais{
+.icons-sociais {
   display: flex;
   gap: 10px;
   margin-top: 10px;
 }
 
-.icons-sociais a{
-  color: var(--cor-secundaria);
+.icons-sociais a {
+  color: var(--cor-texto-claro);
 }
-
