@@ -37,6 +37,12 @@
   height: 80%;
 }
 
-.stack__icons img {
+.stack__icons a img {
   height: 100%;
+}
+
+@media (max-width: 460px) {
+  .stack__icons a img {
+    height: 75%;
+  }
 }
