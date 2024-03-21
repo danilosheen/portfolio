@@ -8,11 +8,11 @@ document.getElementById("theme-toggle").addEventListener("click", function () {
   name.classList.toggle("gradient");
 });
 
-// const btnMobile = document.getElementById("btn-mobile");
+const btnMobile = document.getElementById("btn-mobile");
 
-// function toggleMenu() {
-//   const nav = document.getElementById("navbar-bs");
-//   nav.classList.toggle("active");
-// }
+function toggleMenu() {
+  const nav = document.getElementById("navbar-bs");
+  nav.classList.toggle("active");
+}
 
-// btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("click", toggleMenu);
