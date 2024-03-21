@@ -109,7 +109,7 @@
   margin: 5px 0;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 990px) {
   .menu {
     display: flex;
     align-items: center;
@@ -118,12 +118,9 @@
     display: none;
   }
 
-  .menu-desktop {
-    display: none !important;
-  }
   .container-links-nav {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     width: 100%;
   }
 
@@ -131,7 +128,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .nav {
@@ -139,16 +136,5 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-  }
-
-  #navbar-bs.active {
-    display: flex !important;
-    transition: 1s linear !important;
-  }
-
-  #btn-mobile {
-    display: block !important;
-    padding: 10px 0;
-    cursor: pointer;
   }
 }
