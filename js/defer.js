@@ -1,4 +1,4 @@
-document.getElementById("theme-toggle").addEventListener("click", function () {
+document.getElementById("theme-toggle").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   const rodape = document.getElementById("rodape-grad");
   const name = document.querySelector(".name-span");
@@ -10,9 +10,12 @@ document.getElementById("theme-toggle").addEventListener("click", function () {
 
 const btnMobile = document.getElementById("btn-mobile");
 
-function toggleMenu() {
+// function toggleMenu() {
+//   const nav = document.getElementById("navbar-bs");
+//   nav.classList.toggle("active");
+// }
+
+btnMobile.addEventListener("click", () => {
   const nav = document.getElementById("navbar-bs");
   nav.classList.toggle("active");
-}
-
-btnMobile.addEventListener("click", toggleMenu);
+});

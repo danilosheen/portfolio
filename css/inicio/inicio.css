@@ -78,6 +78,7 @@ main {
 
   .image-profile {
     justify-content: center;
+    height: 200px;
   }
 
   .content-profile {

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   if (typeof window.addEventListener === "function") {
     var links = document.querySelectorAll("a[href^='#']");
     for (var i = 0; i < links.length; i++) {
