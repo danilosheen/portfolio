@@ -17,12 +17,12 @@ Projeto proposto como atividade de nivelamento e apresentação elaborada pela i
 
 ## Link do Trello utilizado como organização de atividades
 
-<a href="https://trello.com/invite/b/jTGdOuVC/ATTIc3a60d37dafbd8424b67c3891b63a9875B14B353/portfolio">Clique aqui para abrir o trello</a>
+<a href="https://trello.com/invite/b/jTGdOuVC/ATTIc3a60d37dafbd8424b67c3891b63a9875B14B353/portfolio" target="_blank">Clique aqui para abrir o trello</a>
 
 ### Autor
 
 <a href="https://github.com/danilosheen/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/49424200?v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/49424200?v=4" target="_blank" width="100px;" alt=""/>
  <br />
  <sub><b>Danilo Ferreira</b></sub></a> <a href="https://github.com/danilosheen" title="GitHub"></a>
 
