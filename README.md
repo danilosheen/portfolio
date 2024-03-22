@@ -11,6 +11,10 @@ Projeto proposto como atividade de nivelamento e apresentação elaborada pela i
 ### Como executar
 - abra o arquivo nomeado index.html com o seu browser
 
+## Link do deploy do projeto
+
+<a href="https://portfolio-vert-delta-22.vercel.app/">Clique aqui para acessar o portfólio</a>
+
 ## Link do Trello utilizado como organização de atividades
 
 <a href="https://trello.com/invite/b/jTGdOuVC/ATTIc3a60d37dafbd8424b67c3891b63a9875B14B353/portfolio">Clique aqui para abrir o trello</a>
