@@ -1,3 +1,4 @@
+// botão alteração de tema light-dark
 document.getElementById("theme-toggle").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   const rodape = document.getElementById("rodape-grad");
@@ -8,13 +9,8 @@ document.getElementById("theme-toggle").addEventListener("click", () => {
   name.classList.toggle("gradient");
 });
 
+// active navbar mobile
 const btnMobile = document.getElementById("btn-mobile");
-
-// function toggleMenu() {
-//   const nav = document.getElementById("navbar-bs");
-//   nav.classList.toggle("active");
-// }
-
 btnMobile.addEventListener("click", () => {
   const nav = document.getElementById("navbar-bs");
   nav.classList.toggle("active");

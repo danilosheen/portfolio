@@ -17,6 +17,10 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+
+  /* scroll */
+  scrollbar-width: thin !important;
+  scrollbar-color: var(--cor-terciaria) var(--cor-secundaria) !important;
 }
 
 body {
