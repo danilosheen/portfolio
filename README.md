@@ -1,4 +1,4 @@
-# Portfólio como proposta de atividade iUUL
+# Portfólio como proposta de atividade iUUL 2.0
 ## Licença
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/danilosheen/API-PSWEBII/blob/main/LICENSE)
 ## Sobre o projeto
