@@ -7,7 +7,21 @@ document.getElementById("theme-toggle").addEventListener("click", () => {
   rodape.classList.toggle("gradient");
   name.classList.toggle("gradient2");
   name.classList.toggle("gradient");
+
+  const isDarkTheme = document.body.classList.contains("dark-mode");
+  localStorage.setItem("theme", isDarkTheme ? "dark" : "light");
 });
+
+// Verificar e aplicar o tema atual ao carregar a página
+window.onload = () => {
+  const savedTheme = localStorage.getItem("theme");
+  const body = document.body;
+  if (savedTheme === "dark") {
+    body.classList.add("dark-mode");
+  } else {
+    body.classList.remove("dark-mode");
+  }
+};
 
 // active navbar mobile
 const btnMobile = document.getElementById("btn-mobile");

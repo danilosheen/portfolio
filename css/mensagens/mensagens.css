@@ -19,6 +19,10 @@
   border: none !important;
 }
 
+.card p{
+  color: var(--cor-texto-primaria);
+}
+
 .card__content {
   background-color: transparent;
   border: 2px solid var(--cor-terciaria);
