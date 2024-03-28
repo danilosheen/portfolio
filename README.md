@@ -13,7 +13,7 @@ Projeto proposto como atividade de nivelamento e apresentação elaborada pela i
 
 ## Link do deploy do projeto
 
-<a href="https://portfolio-danilosheen.vercel.app/" target="_blank">Clique aqui para acessar o portfólio</a>
+<a href="https://portfolio-vert-delta-22.vercel.app/" target="_blank">Clique aqui para acessar o portfólio</a>
 
 ## Link do Trello utilizado como organização de atividades
 
