@@ -47,9 +47,15 @@ function exibeMensagem() {
   }
 }
 
-document.querySelector(".button-submit").addEventListener("click", (event) => {
-  event.preventDefault();
-});
+// document.querySelector(".button-submit").addEventListener("click", (event) => {
+//   event.preventDefault();
+// });
+
+// Obtém a URL da página atual
+var currentURL = window.location.href;
+
+// Define o valor do input hidden para a URL atual
+document.getElementById('nextURL').value = currentURL;
 
 
 // Função para adicionar um novo objeto à lista

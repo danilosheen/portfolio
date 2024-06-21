@@ -87,7 +87,7 @@
           </div>
           <div class="content-profile ct">
             <h1 class="cptx">Olá, me chamo Danilo</h1>
-            <h3 class="cptx">Frontend Developer</h3>
+            <h3 class="cptx">Front-end Developer</h3>
             <p class="cptx">Amante de tecnologia</p>
             <a
               class="button-link"
@@ -136,7 +136,7 @@
                   primeiro contato com um computador, desenvolvi uma profunda
                   paixão pela área da tecnologia. Desde então, tenho explorado
                   diversas áreas e tecnologias dentro desse campo. No entanto,
-                  decidi concentrar meus esforços no Desenvolvimento Frontend
+                  decidi concentrar meus esforços no Desenvolvimento Front-end
                   Web. Tenho como objetivo de carreira me especializar ainda
                   mais e me tornar um desenvolvedor FullStack de excelência,
                   visando fornecer soluções inteligentes e eficazes para meus
@@ -208,7 +208,7 @@
               </div>
               <div class="content-right">
                 <div class="container-formacao">
-                  <h4>Curso de Formação AWS</h4>
+                  <h4>Curso de Formação AWS - Certificação Cloud Practitioner</h4>
                   <span>Escola da Nuvem</span>
                 </div>
                 <div>
@@ -510,49 +510,43 @@
 
               <!-- formulário -->
               <section class="section-form">
-                <form class="form">
-                  <div class="input-field">
-                    <input
-                      class="input-name"
-                      id="campo-nome"
-                      placeholder="Nome"
-                      type="text"
-                      name="nome"
-                      required
-                    />
-                  </div>
+                <form class="form" action="https://formsubmit.co/c.danilo.f.silva@gmail.com" method="POST">
+                  <input
+                    class="input-name"
+                    id="campo-nome"
+                    placeholder="Nome"
+                    type="text"
+                    name="name"
+                    required
+                  />
+                  <input
+                    class="input-email"
+                    id="campo-email"
+                    placeholder="Email"
+                    type="email"
+                    name="email"
+                    required
+                  />
 
-                  <div class="input-field">
-                    <input
-                      class="input-email"
-                      id="campo-email"
-                      placeholder="Email"
-                      type="email"
-                      name="email"
-                      required
-                    />
-                  </div>
-
-                  <div class="input-field">
-                    <textarea
-                      name="message"
-                      id="campo-mensagem"
-                      class="input-msg"
-                      placeholder="Digite sua mensagem"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="buttons-contato">
-                    <a class="button-visualizar-msg" href="./mensagens.html"
-                      >Listar Mensagens</a
-                    >
-                    <button onclick="startEvent()" class="button-submit">
-                      Enviar
-                    </button>
-                  </div>
+                  <textarea
+                    name="message"
+                    id="campo-mensagem"
+                    class="input-msg"
+                    placeholder="Digite sua mensagem"
+                    required
+                  ></textarea>
+                  
+                  <button onclick="startEvent()" type="submit" class="button-submit">
+                    Enviar
+                  </button>
                   <div class="mensagem-status">
                     <p id="mensagem-status"></p>
                   </div>
+                  <!-- config form-submit -->
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_subject" value="Nova mensagem do portfólio">
+                  <input type="hidden" name="_next" id="nextURL" value="">
+                  <input type="hidden" name="_template" value="table">
                 </form>
               </section>
             </div>
